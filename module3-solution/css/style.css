@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+}
+
+.navbar-brand{font-size: 2em;}
+
+.nav-item{}
+
+h2{font-size: 1.75em;}
+
+.ourMenu section .cont-inner{
+	border: 1px solid #bababa;
+	padding: 20px;
+}
+
+.ourMenu section#chicken .cont-inner{background-color: #FFF9DC;}
+.ourMenu section#beef .cont-inner{background-color: #FFE2DC;}
+.ourMenu section#sushi .cont-inner{background-color: #E4F1F6;}
+
+.ourMenu section .cont-inner h3{
+	font-size: 1.25em;
+}
+
+footer{height: 40px;}
+
+@media(max-width: 575px){
+	.navbar{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.navbar-brand{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	
+	.navbar-toggler{
+		margin-right: 1rem;
+	}
+	
+	.nav-item.active{background-color: #f1f1f1;}
+	.navbar-dark .navbar-nav .active>.nav-link{
+		color: #343a40;
+		font-weight: bold;
+	}
+}
